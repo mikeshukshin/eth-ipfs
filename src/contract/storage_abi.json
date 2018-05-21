@@ -4,10 +4,10 @@
         "inputs": [
             {
                 "name": "x",
-                "type": "uint256"
+                "type": "string"
             }
         ],
-        "name": "set",
+        "name": "sendHash",
         "outputs": [],
         "payable": false,
         "stateMutability": "nonpayable",
@@ -16,11 +16,11 @@
     {
         "constant": true,
         "inputs": [],
-        "name": "get",
+        "name": "getHash",
         "outputs": [
             {
-                "name": "retVal",
-                "type": "uint256"
+                "name": "x",
+                "type": "string"
             }
         ],
         "payable": false,
